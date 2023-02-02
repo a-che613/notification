@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 100%;
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  transition: all 2s ease;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+}
+
+.header button {
+  border: none;
+  background: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header .div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .div1 div {
+  border: 0.5px solid navy;
+  color: white;
+  background: navy;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.body section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.body section img {
+  width: 45px;
+}
+
+.dot {
+  background: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+/* .dot1 {
+  background: red;
+  height: 10px;
+  width: 14px;
+  border-radius: 100%;
+}
+.dot2{
+  background: red;
+  height: 10px;
+  width: 16px;
+  border-radius: 100%;
+} */
+.dot-sec {
+  background: rgba(173, 216, 230, 0.226);
+}
+
+.diva {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.diva .diva1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.body .sec4 {
+  display: flex;
+  align-items: flex-start;
+}
+.body .sec4 .diva .diva1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .sec4 p.message {
+  border: 0.5px solid rgba(0, 0, 0, 0.199);
+  padding: 20px;
+  width: 90%;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  /* position: relative;
+  left: 10px; */
+}
+
+span.name {
+  font-weight: bolder;
+}
+span.message {
+  color: rgb(165, 154, 139);
+}
+span.post {
+  color: rgb(57, 57, 105);
+  font-weight: 500;
+}
+span.group {
+  color: rgb(80, 80, 161);
+}
+
+.body .sec5 {
+  /* border: solid orange; */
+
+}
+
+.body .sec5 .diva {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body .sec5 .diva .diva1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .sec5 .diva p {
+  position: relative;
+  left: 0;
+}
+
+
+@media  screen and (min-width: 768px) {
+  h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 60%;
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 8px 0 black;
+  transition: all 2s ease;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+}
+
+.header button {
+  border: none;
+  background: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header .div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .div1 div {
+  border: 0.5px solid navy;
+  color: white;
+  background: navy;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.body section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.body section img {
+  width: 45px;
+}
+
+.dot {
+  background: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+.dot-sec {
+  background: rgba(173, 216, 230, 0.226);
+}
+
+.diva {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.diva .diva1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.body .sec4 {
+  display: flex;
+  align-items: flex-start;
+}
+.body .sec4 .diva .diva1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .sec4 p.message {
+  border: 0.5px solid rgba(0, 0, 0, 0.199);
+  padding: 20px;
+  width: 90%;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  /* position: relative;
+  left: 10px; */
+}
+
+span.name {
+  font-weight: bolder;
+}
+span.message {
+  color: rgb(165, 154, 139);
+}
+span.post {
+  color: rgb(57, 57, 105);
+  font-weight: 500;
+}
+span.group {
+  color: rgb(80, 80, 161);
+}
+
+.body .sec5 {
+  /* border: solid orange; */
+
+}
+
+.body .sec5 .diva {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body .sec5 .diva .diva1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .sec5 .diva p {
+  position: relative;
+  left: 0;
+}
+}
